@@ -1,8 +1,3 @@
-# Dynamic Explainable Recommender 
-
-![images](img/DER.png)
-
-
 ## Requirements
 
 - Python 2.7
