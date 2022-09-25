@@ -6,6 +6,7 @@ import numpy as np
 
 experiment_id = 0
 #change something
+#test push 1 thing
 attention_path = os.path.join('./results', str(experiment_id), 'attention_results')
 attention = pd.read_csv(attention_path, header=None, dtype='str')
 

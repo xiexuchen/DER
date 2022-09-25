@@ -6,7 +6,7 @@ import os
 class DER():
     def __init__(self, args):
         tf.set_random_seed(0)
-
+#test push another thing
         self._null = 0
         self.ll = tf.constant(0.0)
         self.result = []
