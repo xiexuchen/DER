@@ -25,7 +25,7 @@ if __name__ == '__main__':
     cf = ConfigParser.ConfigParser()
     cf.read("./conf/default_setting.conf")
     parser = argparse.ArgumentParser()
-
+#blabla
     parser.add_argument('--root_path', type=str, default=cf.get("path", "root_path"), required=False, help='root_path')
     parser.add_argument('--input_data_type', type=str, default=cf.get("path", "input_data_type"), required=False, help='input_data_type')
     parser.add_argument('--output_path', type=str, default=cf.get("path", "output_path"), required=False, help='output_path')
