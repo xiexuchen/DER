@@ -30,7 +30,6 @@ if __name__ == '__main__':
     parser.add_argument('--input_data_type', type=str, default=cf.get("path", "input_data_type"), required=False, help='input_data_type')
     parser.add_argument('--output_path', type=str, default=cf.get("path", "output_path"), required=False, help='output_path')
     parser.add_argument('--log_conf_path', type=str, default=cf.get("path", "log_conf_path"), required=False, help='log_conf_path')
-#it will not mind the changes here
     parser.add_argument('--global_dimension', type=int, default=cf.getint("parameters", "global_dimension"), required=False, help='number of latent factors')
     parser.add_argument('--word_dimension', type=int, default=cf.getint("parameters", "word_dimension"), required=False, help='word_dimension')
     parser.add_argument('--batch_size', type=int, default=cf.getint("parameters", "batch_size"), required=False, help='batch_size')
